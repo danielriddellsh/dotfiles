@@ -13,7 +13,7 @@ brew bundle install
 ./install.sh
 
 # 4. Start container runtime
-colima start --cpu 4 --memory 8
+colima start --cpu 4 --memory 8 --kubernetes
 ```
 
 ---
@@ -24,7 +24,7 @@ colima start --cpu 4 --memory 8
 |---|---|
 | VSCode | `brew install --cask visual-studio-code` (Brewfile) |
 | Obsidian | `brew install --cask obsidian` (Brewfile) |
-| Colima | `brew install colima docker` (Brewfile) — run `colima start --cpu 4 --memory 8` after install |
+| Colima | `brew install colima docker kubectl` (Brewfile) — run `colima start --cpu 4 --memory 8 --kubernetes` after install |
 | lazygit | `brew install lazygit` (Brewfile) |
 | lazydocker | `brew install lazydocker` (Brewfile) |
 | Claude Desktop | `brew install --cask claude` (Brewfile) |
