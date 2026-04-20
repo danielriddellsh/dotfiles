@@ -22,6 +22,7 @@ link ".config/gh/config.yml"
 link "Library/Application Support/Claude/claude_desktop_config.json"
 link "Library/Application Support/Code/User/mcp.json"
 link "Library/Application Support/Code/User/settings.json"
+link "Library/Application Support/iTerm2/DynamicProfiles/Profiles.json"
 link ".config/linearmouse/linearmouse.json"
 link ".config/git/ignore"
 
