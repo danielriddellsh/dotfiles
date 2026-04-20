@@ -1,0 +1,120 @@
+{
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": false,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "repositories": false,
+        "searchAndCompare": true,
+        "launchpad": false
+    },
+    "dbcode.history.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressIntegrationRequestTimedOutWarning": true
+    },
+    "cline.vsCodeLmModelSelector": {},
+    "continue.enableQuickActions": true,
+    "continue.telemetryEnabled": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "kilo-code.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "github.copilot.nextEditSuggestions.fixes": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.ignoreRebaseWarning": true,
+    "codeium.enableConfig": {
+        "*": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "git.replaceTagsWhenPull": true,
+    "chatgpt.commentCodeLensEnabled": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "githubPullRequests.commentExpandState": "collapseAll",
+    "githubPullRequests.pullBranch": "never",
+    "chat.tools.terminal.autoApprove": {
+        "go": true,
+        "cp": true,
+        "mv": true
+    },
+    "chat.agent.todoList": {
+        "position": "default"
+    },
+    "github.copilot.chat.agent.thinkingTool": true,
+    "gitlens.views.branches.showRemoteBranches": true,
+    "gitlens.plusFeatures.enabled": false,
+    "chat.checkpoints.showFileChanges": true,
+    "update.mode": "manual",
+    "chat.agent.maxRequests": 125,
+    "protobuf.codegen.generateOnSave": true,
+    "chat.mcp.gallery.enabled": true,
+    "protobuf.externalLinter.enabled": true,
+    "protobuf.externalLinter.linter": "buf",
+    "protobuf.externalLinter.bufPath": "/opt/homebrew/bin/buf",
+    "protobuf.buf.path": "/opt/homebrew/bin/buf",
+    "protobuf.protoc.path": "/opt/homebrew/bin/protoc",
+    "chat.agent.thinkingStyle": "fixedScrolling",
+    "claudeCode.preferredLocation": "panel",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "chat.emptyState.history.enabled": true,
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": true
+    },
+    "chat.mcp.serverSampling": {
+        "Global in Code: oraios/serena": {
+            "allowedModels": [
+                "copilot/claude-haiku-4.5",
+                "copilot/claude-opus-4.5",
+                "copilot/claude-opus-4.6",
+                "copilot/claude-sonnet-4",
+                "copilot/claude-sonnet-4.5",
+                "copilot/claude-sonnet-4.6"
+            ]
+        }
+    },
+    "editor.aiStats.enabled": true,
+    "inlineChat.notebookAgent": true,
+    "inlineChat.enableV2": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.newWorkspace.useContext7": true,
+    "github.copilot.chat.responsesApiReasoningEffort": "high",
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.chat.executePrompt.enabled": true,
+    "dev.containers.experimentalAppleContainerSupport": true,
+    "github.copilot.chat.scopeSelection": true,
+    "chat.commandCenter.enabled": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "dev.containers.dockerSocketPath": "unix:///Users/danielriddell/.colima/default/docker.sockp",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "claude-code:claude-haiku-4.5",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons"
+}
