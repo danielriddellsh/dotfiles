@@ -11,6 +11,9 @@ brew bundle install
 
 # 3. Symlink configs
 ./install.sh
+
+# 4. Start container runtime
+colima start --cpu 4 --memory 8
 ```
 
 ---
@@ -21,7 +24,7 @@ brew bundle install
 |---|---|
 | VSCode | `brew install --cask visual-studio-code` (Brewfile) |
 | Obsidian | `brew install --cask obsidian` (Brewfile) |
-| Colima | `brew install colima` (Brewfile) |
+| Colima | `brew install colima docker` (Brewfile) — run `colima start --cpu 4 --memory 8` after install |
 | lazygit | `brew install lazygit` (Brewfile) |
 | lazydocker | `brew install lazydocker` (Brewfile) |
 | Claude Desktop | `brew install --cask claude` (Brewfile) |
