@@ -25,6 +25,7 @@ link "Library/Application Support/Code/User/settings.json"
 link "Library/Application Support/iTerm2/DynamicProfiles/Profiles.json"
 link ".config/linearmouse/linearmouse.json"
 link ".config/git/ignore"
+link ".docker/config.json"
 
 echo ""
 echo "Done. Next steps:"
