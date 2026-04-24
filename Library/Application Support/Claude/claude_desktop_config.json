@@ -10,6 +10,7 @@
     }
   },
   "preferences": {
+    "ccBranchPrefix": "claude",
     "coworkScheduledTasksEnabled": true,
     "ccdScheduledTasksEnabled": true,
     "sidebarMode": "epitaxy",

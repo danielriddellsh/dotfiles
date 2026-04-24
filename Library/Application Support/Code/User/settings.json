@@ -116,5 +116,8 @@
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "claude-code:claude-haiku-4.5",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "material-product-icons"
+    "workbench.productIconTheme": "material-product-icons",
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true,
+    "task.allowAutomaticTasks": "on"
 }
