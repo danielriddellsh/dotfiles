@@ -1,6 +1,7 @@
 tap "danielriddell21/unum"
 brew "buf"
 brew "colima"
+brew "d2"
 brew "docker"
 brew "docker-compose"
 brew "docker-credential-helper"

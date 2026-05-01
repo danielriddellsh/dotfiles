@@ -119,5 +119,11 @@
     "workbench.productIconTheme": "material-product-icons",
     "diffEditor.renderSideBySide": true,
     "diffEditor.experimental.showMoves": true,
-    "task.allowAutomaticTasks": "on"
+    "task.allowAutomaticTasks": "on",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    }
 }
