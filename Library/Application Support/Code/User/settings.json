@@ -1,6 +1,5 @@
 {
     "redhat.telemetry.enabled": false,
-    "git.autofetch": true,
     "gitlens.views.scm.grouped.views": {
         "commits": false,
         "branches": false,
@@ -31,13 +30,11 @@
     ],
     "github.copilot.nextEditSuggestions.fixes": true,
     "github.copilot.nextEditSuggestions.enabled": true,
-    "git.enableSmartCommit": true,
     "git.ignoreRebaseWarning": true,
     "codeium.enableConfig": {
         "*": true
     },
     "go.toolsManagement.autoUpdate": true,
-    "git.confirmSync": false,
     "workbench.colorTheme": "GitHub Dark Default",
     "git.replaceTagsWhenPull": true,
     "chatgpt.commentCodeLensEnabled": false,
@@ -125,5 +122,12 @@
         "plaintext": false,
         "markdown": true,
         "scminput": false
-    }
+    },
+    "git.showCommitInput": false,
+    "git.showActionButton": {
+        "commit": false,
+        "publish": false,
+        "sync": false
+    },
+    "git.autofetch": true
 }

@@ -11,11 +11,29 @@
   },
   "preferences": {
     "ccBranchPrefix": "claude",
+    "localAgentModeTrustedFolders": [
+      "/Users/dan/Library/CloudStorage/OneDrive-SimplyhealthGroupLtd/Documents/Obsidian Vault/Projects"
+    ],
     "coworkScheduledTasksEnabled": true,
     "ccdScheduledTasksEnabled": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
     "dockBounceEnabled": true,
-    "coworkWebSearchEnabled": true
+    "coworkWebSearchEnabled": true,
+    "epitaxyPrefs": {
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "customGroupAssignments": {},
+        "customGroupOrder": {}
+      },
+      "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
+        "/Users/dan/Github/orpheus": "plan"
+      },
+      "cc-landing-draft-permission-mode": "plan",
+      "cc-landing-worktree-enabled": false
+    }
   }
 }
