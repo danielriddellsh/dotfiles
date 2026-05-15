@@ -129,5 +129,6 @@
         "publish": false,
         "sync": false
     },
-    "git.autofetch": true
+    "git.autofetch": true,
+    "terminal.integrated.initialHint": false
 }

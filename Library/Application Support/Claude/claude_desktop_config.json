@@ -16,10 +16,11 @@
     ],
     "coworkScheduledTasksEnabled": true,
     "ccdScheduledTasksEnabled": true,
-    "sidebarMode": "epitaxy",
+    "sidebarMode": "chat",
     "bypassPermissionsModeEnabled": true,
     "dockBounceEnabled": true,
     "coworkWebSearchEnabled": true,
+    "remoteToolsDeviceName": "dans-macbook-pro-local",
     "epitaxyPrefs": {
       "starred-local-code-sessions": [],
       "starred-cowork-spaces": [],
@@ -30,10 +31,15 @@
         "customGroupOrder": {}
       },
       "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
-        "/Users/dan/Github/orpheus": "plan"
+        "/Users/dan/Github/orpheus": "acceptEdits",
+        "/Users/dan/Github/observability-demo": "bypassPermissions"
       },
-      "cc-landing-draft-permission-mode": "plan",
-      "cc-landing-worktree-enabled": false
+      "cc-landing-draft-permission-mode": "acceptEdits",
+      "cc-landing-worktree-enabled": false,
+      "epitaxy-perm-mode-acks.ee527eec-9dda-4a4c-8211-5fd15f9dc899": [
+        "/Users/dan/Github/observability-demo:bypassPermissions"
+      ],
+      "epitaxy-pr-create-mode": "create"
     }
   }
 }
