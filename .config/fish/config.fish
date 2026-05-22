@@ -34,3 +34,7 @@ set -g fish_color_valid_path --underline
 
 # Install Starship
 starship init fish | source
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/dan/.lmstudio/bin
+# End of LM Studio CLI section
+

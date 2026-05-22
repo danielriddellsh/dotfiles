@@ -26,6 +26,8 @@ link "Library/Application Support/iTerm2/DynamicProfiles/Profiles.json"
 link ".config/linearmouse/linearmouse.json"
 link ".config/git/ignore"
 link ".docker/config.json"
+link ".pi/agent/settings.json"
+link ".pi/agent/npm/package.json"
 
 echo ""
 echo "Done. Next steps:"
