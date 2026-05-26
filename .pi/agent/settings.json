@@ -1,5 +1,9 @@
 {
   "packages": [
-    "npm:pi-desktop-ui"
-  ]
+    "npm:pi-subagents",
+    "npm:pi-web-access"
+  ],
+  "lastChangelogVersion": "0.75.3",
+  "defaultProvider": "lmstudio",
+  "defaultModel": "google/gemma-4-e4b"
 }
