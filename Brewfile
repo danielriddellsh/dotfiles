@@ -61,3 +61,4 @@ vscode "pkief.material-product-icons"
 vscode "semanticdiff.semanticdiff"
 go "github.com/golangci/golangci-lint/cmd/golangci-lint"
 go "golang.org/x/tools/gopls"
+uv "graphifyy", with: ["openai"]

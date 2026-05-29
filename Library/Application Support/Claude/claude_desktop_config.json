@@ -9,6 +9,7 @@
       ]
     }
   },
+  "coworkUserFilesPath": "/Users/dan/Claude",
   "preferences": {
     "ccBranchPrefix": "claude",
     "localAgentModeTrustedFolders": [
@@ -16,7 +17,7 @@
     ],
     "coworkScheduledTasksEnabled": true,
     "ccdScheduledTasksEnabled": true,
-    "sidebarMode": "chat",
+    "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
     "bypassPermissionsGateByAccount": {
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
@@ -43,7 +44,8 @@
         "/Users/dan/Github/observability-demo:bypassPermissions",
         "/Users/dan/Github/orpheus:auto"
       ],
-      "epitaxy-pr-create-mode": "create"
+      "epitaxy-pr-create-mode": "create",
+      "epitaxy-gh-install-dismissed": true
     }
   }
 }
