@@ -28,6 +28,8 @@ link ".config/git/ignore"
 link ".docker/config.json"
 link ".pi/agent/settings.json"
 link ".pi/agent/npm/package.json"
+link ".claude/settings.json"
+link ".claude/scheduled-tasks/dotfiles-sync/SKILL.md"
 
 echo ""
 echo "Done. Next steps:"
