@@ -15,6 +15,7 @@ This overwrites the Brewfile with the current state of installed packages.
 Check if any of these tracked files have changed vs the repo copy:
 - ~/.gitconfig
 - ~/.zprofile
+- ~/CLAUDE.md
 - ~/.config/fish/config.fish
 - ~/.config/fish/alias.fish
 - ~/.config/starship.toml
@@ -25,13 +26,19 @@ Check if any of these tracked files have changed vs the repo copy:
 - ~/.pi/agent/settings.json
 - ~/.pi/agent/npm/package.json
 - ~/.claude/settings.json
-- ~/.claude/scheduled-tasks/dotfiles-sync/SKILL.md
+- ~/.claude/scheduled-tasks/ (all SKILL.md files under this dir)
+- ~/.claude/skills/ (all SKILL.md files under this dir)
 - ~/Library/Application Support/Code/User/settings.json
 - ~/Library/Application Support/Code/User/mcp.json
 - ~/Library/Application Support/Claude/claude_desktop_config.json
+- ~/Library/Application Support/Claude/extensions-installations.json
 - ~/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json
 
 For each file, compare the live version to the repo copy using diff. If the live version has changed, copy it into the repo (overwriting the repo copy).
+
+Also sync the cowork plugin manifest. Find it with:
+  find ~/Library/Application\ Support/Claude/local-agent-mode-sessions -name "manifest.json" -path "*/rpm/manifest.json" 2>/dev/null | head -1
+Compare to Library/Application Support/Claude/rpm-manifest.json in the repo. Copy if changed.
 
 **3. Check for secrets before committing**
 Do not commit if any file contains: passwords, tokens, private keys, or AWS credentials.
