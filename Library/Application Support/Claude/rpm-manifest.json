@@ -1,0 +1,41 @@
+{
+  "lastUpdated": 1780079194931,
+  "plugins": [
+    {
+      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
+      "name": "cowork-plugin-management",
+      "updatedAt": "2026-05-28T22:36:10.010416Z",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01LUZUMEBZGv73n16s8hZgTB",
+      "name": "caveman",
+      "updatedAt": "2026-05-29T18:25:33.148037Z",
+      "marketplaceId": "marketplace_01WsGuZLEv9nSD4XDwnJ6jWX",
+      "marketplaceName": "caveman",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_011tzfgfZaaBuQLxJ67aE1AS",
+      "name": "superpowers",
+      "updatedAt": "2026-05-29T18:24:19.468945Z",
+      "marketplaceId": "marketplace_015438xH7oG9GDoAV3zMtmub",
+      "marketplaceName": "superpowers-marketplace",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01RhNBgyaj3KNyZbJ6ptBkWE",
+      "name": "babysitter",
+      "updatedAt": "2026-05-29T18:26:29.570009Z",
+      "marketplaceId": "marketplace_01BEguHgcHCBa34bKw25gsqi",
+      "marketplaceName": "babysitter",
+      "installedBy": "user",
+      "installationPreference": "available"
+    }
+  ]
+}

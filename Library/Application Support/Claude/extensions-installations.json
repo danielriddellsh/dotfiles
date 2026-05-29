@@ -1,0 +1,212 @@
+{
+  "extensions": {
+    "ant.dir.ant.anthropic.ms_office_word": {
+      "id": "ant.dir.ant.anthropic.ms_office_word",
+      "version": "0.4.2",
+      "hash": "569b3d29a70e64d863b88ff41e9ff028642aed53d3a93ccb6d70725d95ec0f20",
+      "installedAt": "2026-04-20T17:09:51.233Z",
+      "manifest": {
+        "manifest_version": "0.3",
+        "name": "Word (By Anthropic)",
+        "display_name": "Word (By Anthropic)",
+        "version": "0.4.2",
+        "description": "Control Microsoft Word with AppleScript automation",
+        "long_description": "This extension allows Claude to interact with Microsoft Word on macOS, enabling document creation, editing, formatting, and management.\n\nIt uses macOS AppleScript automation to control Word and requires your explicit permission through macOS security prompts before accessing Microsoft Word. It is not affiliated with or endorsed by Microsoft Corporation.",
+        "author": {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com"
+        },
+        "homepage": "https://www.anthropic.com",
+        "documentation": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+        "support": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+        "icon": "icon.png",
+        "server": {
+          "type": "node",
+          "entry_point": "server/index.js",
+          "mcp_config": {
+            "command": "node",
+            "args": [
+              "${__dirname}/server/index.js"
+            ],
+            "env": {
+              "HOME": "${HOME}"
+            }
+          }
+        },
+        "tools": [
+          {
+            "name": "create_document",
+            "description": "Create a new Word document with optional content"
+          },
+          {
+            "name": "open_document",
+            "description": "Open an existing Word document"
+          },
+          {
+            "name": "get_document_text",
+            "description": "Get all text content from the active document"
+          },
+          {
+            "name": "insert_text",
+            "description": "Insert text at the current cursor position"
+          },
+          {
+            "name": "replace_text",
+            "description": "Find and replace text in the active document"
+          },
+          {
+            "name": "format_text",
+            "description": "Apply formatting to selected text (bold, italic, underline, font, size, color)"
+          },
+          {
+            "name": "save_document",
+            "description": "Save the active document"
+          },
+          {
+            "name": "close_document",
+            "description": "Close the active document"
+          },
+          {
+            "name": "export_pdf",
+            "description": "Export the active document as PDF"
+          }
+        ],
+        "keywords": [
+          "microsoft",
+          "word",
+          "office",
+          "documents",
+          "writing",
+          "productivity",
+          "macos",
+          "automation"
+        ],
+        "license": "MIT",
+        "privacy_policies": [
+          "https://www.microsoft.com/en-us/privacy/privacystatement"
+        ],
+        "compatibility": {
+          "claude_desktop": ">=0.10.0",
+          "platforms": [
+            "darwin"
+          ],
+          "runtimes": {
+            "node": ">=16.0.0"
+          }
+        }
+      },
+      "signatureInfo": {
+        "status": "unsigned"
+      },
+      "source": "registry"
+    },
+    "ant.dir.ant.anthropic.ms_office_powerpoint": {
+      "id": "ant.dir.ant.anthropic.ms_office_powerpoint",
+      "version": "0.4.2",
+      "hash": "910f2ca37ff6371349987546778bea54c3d532372e7eec6d69d33eb253ae771b",
+      "installedAt": "2026-04-20T17:09:58.406Z",
+      "manifest": {
+        "manifest_version": "0.3",
+        "name": "PowerPoint (By Anthropic)",
+        "display_name": "PowerPoint (By Anthropic)",
+        "version": "0.4.2",
+        "description": "Control Microsoft PowerPoint with AppleScript automation",
+        "long_description": "This extension allows Claude to interact with Microsoft PowerPoint on macOS, enabling presentation creation, slide management, and content editing.\n\nIt uses macOS AppleScript automation to control PowerPoint and requires your explicit permission through macOS security prompts before accessing Microsoft PowerPoint. It is not affiliated with or endorsed by Microsoft Corporation.",
+        "author": {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com"
+        },
+        "homepage": "https://www.anthropic.com",
+        "documentation": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+        "support": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+        "icon": "icon.png",
+        "server": {
+          "type": "node",
+          "entry_point": "server/index.js",
+          "mcp_config": {
+            "command": "node",
+            "args": [
+              "${__dirname}/server/index.js"
+            ],
+            "env": {
+              "HOME": "${HOME}"
+            }
+          }
+        },
+        "tools": [
+          {
+            "name": "create_presentation",
+            "description": "Create a new PowerPoint presentation"
+          },
+          {
+            "name": "open_presentation",
+            "description": "Open an existing PowerPoint presentation"
+          },
+          {
+            "name": "add_slide",
+            "description": "Add a new slide to the presentation"
+          },
+          {
+            "name": "get_slide_content",
+            "description": "Get the text content from a specific slide"
+          },
+          {
+            "name": "set_slide_title",
+            "description": "Set the title of a slide"
+          },
+          {
+            "name": "add_text_to_slide",
+            "description": "Add text content to a slide"
+          },
+          {
+            "name": "insert_image",
+            "description": "Insert an image into a slide"
+          },
+          {
+            "name": "delete_slide",
+            "description": "Delete a specific slide"
+          },
+          {
+            "name": "save_presentation",
+            "description": "Save the active presentation"
+          },
+          {
+            "name": "close_presentation",
+            "description": "Close the active presentation"
+          },
+          {
+            "name": "export_pdf",
+            "description": "Export the presentation as PDF"
+          }
+        ],
+        "keywords": [
+          "microsoft",
+          "powerpoint",
+          "office",
+          "presentations",
+          "slides",
+          "productivity",
+          "macos",
+          "automation"
+        ],
+        "license": "MIT",
+        "privacy_policies": [
+          "https://www.microsoft.com/en-us/privacy/privacystatement"
+        ],
+        "compatibility": {
+          "claude_desktop": ">=0.10.0",
+          "platforms": [
+            "darwin"
+          ],
+          "runtimes": {
+            "node": ">=16.0.0"
+          }
+        }
+      },
+      "signatureInfo": {
+        "status": "unsigned"
+      },
+      "source": "registry"
+    }
+  }
+}
