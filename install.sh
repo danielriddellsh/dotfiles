@@ -11,6 +11,14 @@ link() {
   echo "  linked $dst"
 }
 
+copy() {
+  local src="$DOTFILES/$1"
+  local dst="$HOME/$1"
+  mkdir -p "$(dirname "$dst")"
+  cp "$src" "$dst"
+  echo "  copied $dst"
+}
+
 echo "Installing dotfiles from $DOTFILES"
 
 link ".gitconfig"
@@ -29,7 +37,16 @@ link ".docker/config.json"
 link ".pi/agent/settings.json"
 link ".pi/agent/npm/package.json"
 link ".claude/settings.json"
-link ".claude/scheduled-tasks/dotfiles-sync/SKILL.md"
+
+# Claude skills/tasks must be real files — scheduler writes to them
+find "$DOTFILES/.claude/scheduled-tasks" -name "SKILL.md" | while read -r src; do
+  rel="${src#$DOTFILES/}"
+  copy "$rel"
+done
+find "$DOTFILES/.claude/skills" -name "SKILL.md" 2>/dev/null | while read -r src; do
+  rel="${src#$DOTFILES/}"
+  copy "$rel"
+done
 
 echo ""
 echo "Done. Next steps:"
