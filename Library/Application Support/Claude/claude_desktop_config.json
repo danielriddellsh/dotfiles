@@ -46,6 +46,9 @@
       ],
       "epitaxy-pr-create-mode": "create",
       "epitaxy-gh-install-dismissed": true
+    },
+    "bypassPermissionsOptInByAccount": {
+      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
     }
   }
 }
