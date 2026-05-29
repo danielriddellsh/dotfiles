@@ -1,12 +1,12 @@
 {
-  "lastUpdated": 1780081562637,
+  "lastUpdated": 1780081963062,
   "skills": [
     {
-      "skillId": "skill_01KLPvsaVtPsbLeo9cXdfbJm",
+      "skillId": "skill_014P9eowteCW1wmPRthj8qM7",
       "name": "bruno",
       "description": "Author and run Bruno API tests using the Bruno CLI (`bru`). Use this skill whenever the user wants to write, generate, scaffold, edit, or run `.bru` files / Bruno collections / API tests for a repo — including \"add an API test for this endpoint\", \"create a Bruno collection\", \"run the bru tests and tell me what failed\", \"test these routes against staging\", or any mention of Bruno, `bru run`, `.bru`, or API request collections. Covers two jobs: (1) writing valid `.bru` request/environment files with headers, auth, body, and assertion/test blocks, and (2) executing them via `bru run`, capturing the JSON report, and summarizing pass/fail. Trigger it even when the user names an endpoint or repo and asks to \"test the API\" without saying \"Bruno\", as long as the project uses (or should use) Bruno.",
       "creatorType": "user",
-      "updatedAt": "2026-05-29T18:47:23.870103Z",
+      "updatedAt": "2026-05-29T19:12:37.164903Z",
       "enabled": true
     },
     {
