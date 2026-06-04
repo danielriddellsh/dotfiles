@@ -19,11 +19,17 @@
     "ccdScheduledTasksEnabled": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
+    "bypassPermissionsOptInByAccount": {
+      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
+    },
     "bypassPermissionsGateByAccount": {
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
     },
     "dockBounceEnabled": true,
     "coworkWebSearchEnabled": true,
+    "coworkModelAutoFallbackByAccount": {
+      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
+    },
     "remoteToolsDeviceName": "dans-macbook-pro-local",
     "epitaxyPrefs": {
       "starred-local-code-sessions": [],
@@ -36,7 +42,8 @@
       },
       "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
         "/Users/dan/Github/orpheus": "auto",
-        "/Users/dan/Github/observability-demo": "bypassPermissions"
+        "/Users/dan/Github/observability-demo": "bypassPermissions",
+        "/Users/dan/github/dotfiles": "acceptEdits"
       },
       "cc-landing-draft-permission-mode": "acceptEdits",
       "cc-landing-worktree-enabled": false,
@@ -45,10 +52,8 @@
         "/Users/dan/Github/orpheus:auto"
       ],
       "epitaxy-pr-create-mode": "create",
-      "epitaxy-gh-install-dismissed": true
-    },
-    "bypassPermissionsOptInByAccount": {
-      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
+      "epitaxy-gh-install-dismissed": true,
+      "fastMode": false
     }
   }
 }

@@ -1,10 +1,10 @@
-tap "danielriddell21/unum"
+tap "danielriddell21/tap"
 brew "node"
 brew "bruno-cli"
 brew "buf"
 brew "colima"
 brew "d2"
-brew "docker"
+brew "docker", link: false
 brew "docker-compose"
 brew "docker-credential-helper"
 brew "fish"
@@ -21,12 +21,15 @@ brew "mole"
 brew "pi-coding-agent"
 brew "starship"
 brew "uv"
-brew "danielriddell21/unum/unum"
+brew "danielriddell21/tap/fiatlux", trusted: true
+brew "danielriddell21/tap/toolshed", trusted: true
+brew "danielriddell21/tap/unum", trusted: true
 cask "bruno"
 cask "claude"
 cask "cleanupbuddy"
 cask "font-fira-code-nerd-font"
 cask "freelens"
+cask "danielriddell21/tap/galapagos", trusted: true
 cask "iterm2"
 cask "latest"
 cask "linearmouse"

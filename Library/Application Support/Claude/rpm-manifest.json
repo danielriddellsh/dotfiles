@@ -1,15 +1,6 @@
 {
-  "lastUpdated": 1780079194931,
+  "lastUpdated": 1780562459724,
   "plugins": [
-    {
-      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
-      "name": "cowork-plugin-management",
-      "updatedAt": "2026-05-28T22:36:10.010416Z",
-      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
-      "marketplaceName": "knowledge-work-plugins",
-      "installedBy": "user",
-      "installationPreference": "available"
-    },
     {
       "id": "plugin_01LUZUMEBZGv73n16s8hZgTB",
       "name": "caveman",
@@ -34,6 +25,15 @@
       "updatedAt": "2026-05-29T18:26:29.570009Z",
       "marketplaceId": "marketplace_01BEguHgcHCBa34bKw25gsqi",
       "marketplaceName": "babysitter",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
+      "name": "cowork-plugin-management",
+      "updatedAt": "2026-05-29T20:44:47.162355Z",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
       "installedBy": "user",
       "installationPreference": "available"
     }
