@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1780581975295,
+  "lastUpdated": 1781879370643,
   "skills": [
     {
       "skillId": "skill_014P9eowteCW1wmPRthj8qM7",
@@ -22,7 +22,7 @@
       "name": "skill-creator",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "creatorType": "anthropic",
-      "updatedAt": "2026-05-28T20:35:52.153455Z",
+      "updatedAt": "2026-06-19T01:06:46.974090Z",
       "enabled": true
     },
     {

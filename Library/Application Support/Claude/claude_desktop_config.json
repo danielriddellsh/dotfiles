@@ -16,6 +16,7 @@
       "/Users/dan/Library/CloudStorage/OneDrive-SimplyhealthGroupLtd/Documents/Obsidian Vault/Projects"
     ],
     "coworkScheduledTasksEnabled": true,
+    "coworkHipaaRestricted": false,
     "ccdScheduledTasksEnabled": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
