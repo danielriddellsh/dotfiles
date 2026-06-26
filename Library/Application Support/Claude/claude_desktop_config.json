@@ -1,14 +1,5 @@
 {
-  "mcpServers": {
-    "postgres": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-postgres",
-        "postgresql://postgres:postgres@localhost:5432"
-      ]
-    }
-  },
+  "mcpServers": {},
   "coworkUserFilesPath": "/Users/dan/Claude",
   "preferences": {
     "ccBranchPrefix": "claude",
@@ -54,7 +45,22 @@
       ],
       "epitaxy-pr-create-mode": "create",
       "epitaxy-gh-install-dismissed": true,
-      "fastMode": false
+      "fastMode": false,
+      "ccd-sessions-filter": {
+        "state": {
+          "selectedProjects": []
+        },
+        "version": 0
+      },
+      "desktop-frame.paneStore.v1": {
+        "state": {
+          "extraPanesByMode": {},
+          "colWeightsByMode": {},
+          "rowSplit": 0.5,
+          "draftNonce": 0
+        },
+        "version": 4
+      }
     }
   }
 }

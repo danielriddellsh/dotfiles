@@ -15,7 +15,6 @@ This overwrites the Brewfile with the current state of installed packages.
 Check if any of these tracked files have changed vs the repo copy:
 - ~/.gitconfig
 - ~/.zprofile
-- ~/CLAUDE.md
 - ~/.config/fish/config.fish
 - ~/.config/fish/alias.fish
 - ~/.config/starship.toml
@@ -28,6 +27,7 @@ Check if any of these tracked files have changed vs the repo copy:
 - ~/.claude/settings.json
 - ~/.claude/scheduled-tasks/ (all SKILL.md files)
 - ~/.claude/skills/ (all SKILL.md files)
+- ~/.claude/CLAUDE.md
 - ~/Library/Application Support/Code/User/settings.json
 - ~/Library/Application Support/Code/User/mcp.json
 - ~/Library/Application Support/Claude/claude_desktop_config.json

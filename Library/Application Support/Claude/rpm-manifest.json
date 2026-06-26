@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781876351316,
+  "lastUpdated": 1782398266771,
   "plugins": [
     {
       "id": "plugin_01LUZUMEBZGv73n16s8hZgTB",
@@ -31,7 +31,7 @@
     {
       "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
       "name": "cowork-plugin-management",
-      "updatedAt": "2026-06-09T13:52:16.524346Z",
+      "updatedAt": "2026-06-23T18:20:50.446471Z",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
       "marketplaceName": "knowledge-work-plugins",
       "installedBy": "user",

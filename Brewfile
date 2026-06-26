@@ -1,4 +1,6 @@
 tap "danielriddell21/tap"
+tap "dapr/tap"
+tap "hashicorp/tap"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI of the open-source IDE For exploring and testing APIs
@@ -21,6 +23,8 @@ brew "fish"
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Helps you navigate your file system faster by learning your habits
@@ -49,6 +53,10 @@ brew "danielriddell21/tap/fiatlux", trusted: true
 brew "danielriddell21/tap/toolshed", trusted: true
 # A unified developer tool suite — JSON analysis, type generation, and more
 brew "danielriddell21/tap/unum", trusted: true
+# Client for Dapr.
+brew "dapr/tap/dapr-cli", trusted: true
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
 # Open source IDE for exploring and testing APIs
 cask "bruno"
 # Anthropic's official Claude AI desktop app
@@ -109,8 +117,8 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "pkief.material-icon-theme"
 vscode "pkief.material-product-icons"
+vscode "redis.redis-for-vscode"
 vscode "semanticdiff.semanticdiff"
-go "github.com/golangci/golangci-lint/cmd/golangci-lint"
 go "golang.org/x/tools/gopls"
 uv "graphifyy", with: ["openai"]
 npm "@a5c-ai/babysitter-sdk"
