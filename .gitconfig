@@ -10,3 +10,5 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [pull]
 	rebase = true
+[core]
+	editor = code --wait

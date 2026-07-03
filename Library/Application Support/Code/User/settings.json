@@ -130,5 +130,6 @@
         "sync": false
     },
     "git.autofetch": true,
-    "terminal.integrated.initialHint": false
+    "terminal.integrated.initialHint": false,
+    "chat.disableAIFeatures": true
 }
