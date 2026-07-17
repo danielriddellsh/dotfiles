@@ -122,4 +122,5 @@ vscode "semanticdiff.semanticdiff"
 go "golang.org/x/tools/gopls"
 uv "graphifyy", with: ["openai"]
 npm "@a5c-ai/babysitter-sdk"
+npm "docx"
 npm "yarn"
