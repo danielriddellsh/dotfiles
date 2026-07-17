@@ -1,14 +1,6 @@
 {
-  "lastUpdated": 1784286419431,
+  "lastUpdated": 1784300718179,
   "skills": [
-    {
-      "skillId": "morning",
-      "name": "morning",
-      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.",
-      "creatorType": "anthropic",
-      "updatedAt": "2026-07-16T21:34:07.957692Z",
-      "enabled": true
-    },
     {
       "skillId": "skill_014P9eowteCW1wmPRthj8qM7",
       "name": "bruno",
@@ -85,6 +77,14 @@
       "skillId": "consolidate-memory",
       "name": "consolidate-memory",
       "description": "Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.",
+      "creatorType": "anthropic",
+      "updatedAt": null,
+      "enabled": true
+    },
+    {
+      "skillId": "morning",
+      "name": "morning",
+      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use when: morning brief, daily brief, set up my morning brief, what's my day look like, run my brief.",
       "creatorType": "anthropic",
       "updatedAt": null,
       "enabled": true

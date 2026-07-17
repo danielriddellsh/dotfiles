@@ -33,7 +33,7 @@
         "customGroupOrder": {}
       },
       "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
-        "/Users/dan/Github/orpheus": "acceptEdits",
+        "/Users/dan/Github/orpheus": "auto",
         "/Users/dan/Github/observability-demo": "bypassPermissions",
         "/Users/dan/github/dotfiles": "acceptEdits"
       },
@@ -61,6 +61,8 @@
         },
         "version": 4
       }
-    }
+    },
+    "launchPreviewPersistedWorkspaces": [],
+    "launchPreviewSessionScopedSessions": []
   }
 }
