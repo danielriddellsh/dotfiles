@@ -1,3 +1,8 @@
 {
+  "enabledPlugins": {
+    "babysitter@a5c.ai": true,
+    "caveman@caveman": true,
+    "superpowers@superpowers-dev": true
+  },
   "agentPushNotifEnabled": true
 }

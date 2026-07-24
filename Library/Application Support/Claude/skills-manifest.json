@@ -1,6 +1,14 @@
 {
-  "lastUpdated": 1784300718179,
+  "lastUpdated": 1784811416477,
   "skills": [
+    {
+      "skillId": "morning",
+      "name": "morning",
+      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.",
+      "creatorType": "anthropic",
+      "updatedAt": "2026-07-22T13:57:19.609986Z",
+      "enabled": true
+    },
     {
       "skillId": "skill_014P9eowteCW1wmPRthj8qM7",
       "name": "bruno",
@@ -22,7 +30,7 @@
       "name": "skill-creator",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "creatorType": "anthropic",
-      "updatedAt": "2026-07-16T21:34:07.380229Z",
+      "updatedAt": "2026-07-22T13:57:18.701442Z",
       "enabled": true
     },
     {
@@ -30,7 +38,7 @@
       "name": "xlsx",
       "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
       "creatorType": "anthropic",
-      "updatedAt": "2026-07-16T04:00:43.367174Z",
+      "updatedAt": "2026-07-22T14:00:36.934172Z",
       "enabled": true
     },
     {
@@ -77,14 +85,6 @@
       "skillId": "consolidate-memory",
       "name": "consolidate-memory",
       "description": "Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.",
-      "creatorType": "anthropic",
-      "updatedAt": null,
-      "enabled": true
-    },
-    {
-      "skillId": "morning",
-      "name": "morning",
-      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use when: morning brief, daily brief, set up my morning brief, what's my day look like, run my brief.",
       "creatorType": "anthropic",
       "updatedAt": null,
       "enabled": true

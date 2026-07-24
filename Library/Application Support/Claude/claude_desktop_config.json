@@ -3,6 +3,9 @@
   "coworkUserFilesPath": "/Users/dan/Claude",
   "preferences": {
     "ccBranchPrefix": "claude",
+    "launchEnabled": false,
+    "launchPreviewPersistedWorkspaces": [],
+    "launchPreviewSessionScopedSessions": [],
     "localAgentModeTrustedFolders": [
       "/Users/dan/Library/CloudStorage/OneDrive-SimplyhealthGroupLtd/Documents/Obsidian Vault/Projects"
     ],
@@ -15,34 +18,25 @@
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
     },
     "bypassPermissionsGateByAccount": {
-      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
+      "ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     },
     "dockBounceEnabled": true,
-    "coworkWebSearchEnabled": true,
+    "coworkWebSearchEnabled": false,
     "coworkModelAutoFallbackByAccount": {
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     },
     "remoteToolsDeviceName": "dans-macbook-pro-local",
+    "claudeIosSimulatorAccessEnabled": false,
     "epitaxyPrefs": {
       "starred-local-code-sessions": [],
       "starred-cowork-spaces": [],
       "starred-session-groups": [],
       "dframe-local-slice": {
         "pinnedOrder": [],
-        "customGroupAssignments": {},
-        "customGroupOrder": {}
-      },
-      "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
-        "/Users/dan/Github/orpheus": "auto",
-        "/Users/dan/Github/observability-demo": "bypassPermissions",
-        "/Users/dan/github/dotfiles": "acceptEdits"
+        "homeProjectsPinnedOrder": []
       },
       "cc-landing-draft-permission-mode": "acceptEdits",
       "cc-landing-worktree-enabled": false,
-      "epitaxy-perm-mode-acks.ee527eec-9dda-4a4c-8211-5fd15f9dc899": [
-        "/Users/dan/Github/observability-demo:bypassPermissions",
-        "/Users/dan/Github/orpheus:auto"
-      ],
       "epitaxy-pr-create-mode": "create",
       "epitaxy-gh-install-dismissed": true,
       "fastMode": false,
@@ -60,9 +54,16 @@
           "draftNonce": 0
         },
         "version": 4
+      },
+      "dframe-group-scopes": {},
+      "epitaxy-transcript-links-in-preview": false,
+      "epitaxy-transcript-links-chooser-seen": true,
+      "epitaxy-perm-mode-acks.ee527eec-9dda-4a4c-8211-5fd15f9dc899": [
+        "/Users/dan/Github/orpheus:auto"
+      ],
+      "epitaxy-folder-permission-mode.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
+        "/Users/dan/Github/orpheus": "auto"
       }
-    },
-    "launchPreviewPersistedWorkspaces": [],
-    "launchPreviewSessionScopedSessions": []
+    }
   }
 }

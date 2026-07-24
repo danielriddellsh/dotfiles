@@ -70,6 +70,8 @@ cask "freelens"
 cask "danielriddell21/tap/galapagos", trusted: true
 # Watch two chess agents play in a native macOS window
 cask "danielriddell21/tap/gambit", trusted: true
+# A territory-war simulation where competing algorithms fight to control a shared grid.
+cask "danielriddell21/tap/hegemony", trusted: true
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Utility that shows the latest app updates
@@ -86,6 +88,8 @@ cask "microsoft-office"
 cask "microsoft-teams"
 # Window dimming utility
 cask "monocle-app"
+# A procedurally generated first-person stealth game hunted by an Alien-Isolation-style AI
+cask "danielriddell21/tap/nemesis", trusted: true
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # A procedurally generated DOOM-style raycaster FPS
