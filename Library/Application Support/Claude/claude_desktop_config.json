@@ -9,10 +9,18 @@
     "localAgentModeTrustedFolders": [
       "/Users/dan/Library/CloudStorage/OneDrive-SimplyhealthGroupLtd/Documents/Obsidian Vault/Projects"
     ],
+    "remoteFolderConsentMemory": [
+      "/Users/dan/Github/orpheus"
+    ],
+    "remoteSessionFolderGrants": {
+      "session_013ytCZZqgQtQFbkPq7rnnH3": [
+        "/Users/dan/Github/gopher-dojo"
+      ]
+    },
     "coworkScheduledTasksEnabled": true,
     "coworkHipaaRestricted": false,
     "ccdScheduledTasksEnabled": true,
-    "sidebarMode": "epitaxy",
+    "sidebarMode": "chat",
     "bypassPermissionsModeEnabled": true,
     "bypassPermissionsOptInByAccount": {
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": false
@@ -72,12 +80,8 @@
         "/Users/dan/Github/api": "auto",
         "/Users/dan/Github/athena": "auto"
       },
-      "claude-code-preferred-editor": "vscode"
-    },
-    "remoteSessionFolderGrants": {
-      "session_013ytCZZqgQtQFbkPq7rnnH3": [
-        "/Users/dan/Github/gopher-dojo"
-      ]
+      "claude-code-preferred-editor": "vscode",
+      "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     }
   }
 }
