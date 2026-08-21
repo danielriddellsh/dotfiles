@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787041376399,
+  "lastUpdated": 1787320566693,
   "plugins": [
     {
       "id": "plugin_01H4NE7KtsRHxMvapLNsS9mY",
@@ -52,16 +52,6 @@
       "installationPreference": "available"
     },
     {
-      "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
-      "name": "i-have-adhd",
-      "updatedAt": "2026-08-18T03:55:44.182880Z",
-      "updatedAtVerified": true,
-      "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
-      "marketplaceName": "i-have-adhd",
-      "installedBy": "user",
-      "installationPreference": "available"
-    },
-    {
       "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
       "name": "cowork-plugin-management",
       "updatedAt": "2026-08-13T13:37:22.981915Z",
@@ -79,6 +69,16 @@
       "updatedAtVerified": true,
       "marketplaceId": "marketplace_01HDntXDM2zk7PgPLcNxQDFT",
       "marketplaceName": "babysitter",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
+      "name": "i-have-adhd",
+      "updatedAt": "2026-08-19T02:53:23.630414Z",
+      "updatedAtVerified": true,
+      "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
+      "marketplaceName": "i-have-adhd",
       "installedBy": "user",
       "installationPreference": "available"
     }

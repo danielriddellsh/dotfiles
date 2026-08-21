@@ -78,10 +78,12 @@
         "/Users/dan/Github/orpheus-bruno": "auto",
         "/Users/dan/github/orpheus-docs": "auto",
         "/Users/dan/Github/api": "auto",
-        "/Users/dan/Github/athena": "auto"
+        "/Users/dan/Github/athena": "auto",
+        "/Users/dan/Github/orpheus-k6": "auto"
       },
       "claude-code-preferred-editor": "vscode",
-      "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
+      "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     }
   }
 }
