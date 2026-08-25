@@ -38,3 +38,5 @@ starship init fish | source
 set -gx PATH $PATH /Users/dan/.lmstudio/bin
 # End of LM Studio CLI section
 
+
+eval (/opt/homebrew/bin/brew shellenv fish)
