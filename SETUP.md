@@ -32,9 +32,8 @@ colima start --cpu 4 --memory 8 --kubernetes
 | FreeLens | `brew install --cask freelens` (Brewfile) |
 | Office 365 | `brew install --cask microsoft-office` (Brewfile) |
 | Microsoft Teams | `brew install --cask microsoft-teams` (Brewfile) |
-| Latest | `brew install --cask latest` (Brewfile) |
-| Cleanup Buddy | `brew install --cask cleanupbuddy` (Brewfile) |
 | Mole | `brew install mole` (Brewfile) |
+| Vorssaint | `brew install --cask vorssaint` (Brewfile) — settings backup: [config/vorssaint](config/vorssaint/README.md) |
 | unum | `brew install danielriddell21/unum/unum` (Brewfile) |
 | Island Browser | [download.island.io](https://download.island.io/) — manual |
 | Company Portal | [Download](https://go.microsoft.com/fwlink/?linkid=853070) — manual |
@@ -45,7 +44,6 @@ colima start --cpu 4 --memory 8 --kubernetes
 
 | Extension | Install |
 |---|---|
-| LinearMouse | `brew install --cask linearmouse` (Brewfile) |
 | Loop | `brew install --cask loop` (Brewfile) |
 | Monocle | `brew install --cask monocle-app` (Brewfile) |
 | DockLock Plus | App Store — manual |

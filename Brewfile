@@ -61,8 +61,6 @@ brew "hashicorp/tap/terraform", trusted: true
 cask "bruno"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Clean keyboard and trackpad
-cask "cleanupbuddy"
 cask "font-fira-code-nerd-font"
 # Kubernetes IDE
 cask "freelens"
@@ -74,10 +72,6 @@ cask "danielriddell21/tap/gambit", trusted: true
 cask "danielriddell21/tap/hegemony", trusted: true
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Utility that shows the latest app updates
-cask "latest"
-# Customise mouse behavior
-cask "linearmouse"
 # Discover, download, and run local LLMs
 cask "lm-studio"
 # Window manager
@@ -100,6 +94,8 @@ cask "redis-insight"
 cask "danielriddell21/tap/rubix", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 vscode "asyncapi.asyncapi-preview"
 vscode "bruno-api-client.bruno"
 vscode "cweijan.dbclient-jdbc"
