@@ -1,4 +1,4 @@
-tap "danielriddell21/tap"
+tap "danielriddell21/tap", trusted: { casks: ["galapagos", "gambit", "hegemony", "nemesis", "pandemonium", "rubix"] }
 tap "dapr/tap"
 tap "hashicorp/tap"
 # Open-source, cross-platform JavaScript runtime environment
@@ -39,6 +39,8 @@ brew "kubernetes-cli"
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Postgres C API library
+brew "libpq"
 # Deep clean and optimize your Mac
 brew "mole"
 # AI agent toolkit
@@ -47,10 +49,6 @@ brew "pi-coding-agent"
 brew "starship"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# Let there be light.
-brew "danielriddell21/tap/fiatlux", trusted: true
-# A small, serious-looking collection of command-line tools
-brew "danielriddell21/tap/toolshed", trusted: true
 # A unified developer tool suite — JSON analysis, type generation, and more
 brew "danielriddell21/tap/unum", trusted: true
 # Client for Dapr.
@@ -64,16 +62,8 @@ cask "claude"
 cask "font-fira-code-nerd-font"
 # Kubernetes IDE
 cask "freelens"
-# Visualize learning algorithms in real time (native macOS window + browser demo)
-cask "danielriddell21/tap/galapagos", trusted: true
-# Watch two chess agents play in a native macOS window
-cask "danielriddell21/tap/gambit", trusted: true
-# A territory-war simulation where competing algorithms fight to control a shared grid.
-cask "danielriddell21/tap/hegemony", trusted: true
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Discover, download, and run local LLMs
-cask "lm-studio"
 # Window manager
 cask "loop"
 # Office suite
@@ -82,16 +72,10 @@ cask "microsoft-office"
 cask "microsoft-teams"
 # Window dimming utility
 cask "monocle-app"
-# A procedurally generated first-person stealth game hunted by an Alien-Isolation-style AI
-cask "danielriddell21/tap/nemesis", trusted: true
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# A procedurally generated DOOM-style raycaster FPS
-cask "danielriddell21/tap/pandemonium", trusted: true
 # GUI for streamlined Redis application development
 cask "redis-insight"
-# A Rubik's cube solver with a native macOS 3D visualizer
-cask "danielriddell21/tap/rubix", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
 # Menu bar toolkit with keep-awake, system monitor and volume mixer
