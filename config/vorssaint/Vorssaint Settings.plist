@@ -115,7 +115,7 @@
 		<key>featureAvailable.cameraPreview</key>
 		<false/>
 		<key>featureAvailable.cleaner</key>
-		<true/>
+		<false/>
 		<key>featureAvailable.cleaningMode</key>
 		<true/>
 		<key>featureAvailable.clipboardHistory</key>
@@ -139,7 +139,7 @@
 		<key>featureAvailable.finderRename</key>
 		<false/>
 		<key>featureAvailable.focusFollowsMouse</key>
-		<true/>
+		<false/>
 		<key>featureAvailable.homebrew</key>
 		<true/>
 		<key>featureAvailable.keepAwake</key>
@@ -223,7 +223,7 @@
 		<key>focusFollowsMouseDelayMilliseconds</key>
 		<integer>250</integer>
 		<key>focusFollowsMouseEnabled</key>
-		<true/>
+		<false/>
 		<key>hasOnboarded</key>
 		<true/>
 		<key>hotkeyEnabled</key>
@@ -513,11 +513,11 @@
 		<key>panelControlDockPreview</key>
 		<true/>
 		<key>panelControlFilesExpanded</key>
-		<false/>
+		<true/>
 		<key>panelControlFocusFollowsMouse</key>
 		<true/>
 		<key>panelControlInputExpanded</key>
-		<false/>
+		<true/>
 		<key>panelControlKeyDebounce</key>
 		<true/>
 		<key>panelControlMiddleClick</key>
@@ -541,7 +541,7 @@
 		<key>panelControlWindowMaximize</key>
 		<true/>
 		<key>panelControlWindowsExpanded</key>
-		<false/>
+		<true/>
 		<key>panelNavigationEnabled</key>
 		<true/>
 		<key>panelShowBrightness</key>
@@ -909,7 +909,7 @@
 		<key>windowLayoutShortcutsEnabled</key>
 		<false/>
 		<key>windowMaximizeEnabled</key>
-		<false/>
+		<true/>
 		<key>windowPreviewExcludedApps</key>
 		<array/>
 	</dict>
