@@ -19,6 +19,8 @@ brew "docker-compose"
 brew "docker-credential-helper"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Database version control to control migrations
+brew "flyway"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -59,6 +61,8 @@ brew "hashicorp/tap/terraform", trusted: true
 cask "bruno"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 cask "font-fira-code-nerd-font"
 # Kubernetes IDE
 cask "freelens"

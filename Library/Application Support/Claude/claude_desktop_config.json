@@ -21,7 +21,9 @@
     },
     "coworkScheduledTasksEnabled": true,
     "coworkHipaaRestricted": false,
+    "orgWorkAcrossAppsDisabled": false,
     "ccdScheduledTasksEnabled": true,
+    "hybridDetectLatched": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
     "bypassPermissionsOptInByAccount": {
@@ -35,6 +37,7 @@
     "coworkModelAutoFallbackByAccount": {
       "ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     },
+    "ccKeepAwakeOnBattery": false,
     "remoteToolsDeviceName": "dans-macbook-pro-local",
     "claudeIosSimulatorAccessEnabled": false,
     "epitaxyPrefs": {
@@ -82,13 +85,14 @@
         "/Users/dan/Github/api": "auto",
         "/Users/dan/Github/athena": "auto",
         "/Users/dan/Github/orpheus-k6": "auto",
-        "/Users/dan/Github/dotfiles": "auto"
+        "/Users/dan/Github/dotfiles": "auto",
+        "/Users/dan/github/orpheus": "auto"
       },
       "claude-code-preferred-editor": "vscode",
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 3,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 8,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 1,
@@ -98,7 +102,10 @@
         },
         "version": 0
       },
-      "epitaxy-auto-setup-snoozed-until.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 1788272628786
+      "epitaxy-auto-setup-snoozed-until.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 0,
+      "epitaxy-auto-setup-band-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "epitaxy-auto-reinvite-first-block-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "epitaxy-keep-awake-band-used.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     }
   }
 }
