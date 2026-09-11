@@ -1,24 +1,24 @@
 {
-  "lastUpdated": 1788529908843,
+  "lastUpdated": 1789135661992,
   "plugins": [
     {
-      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
-      "name": "cowork-plugin-management",
-      "updatedAt": "2026-09-01T14:07:01.634450Z",
+      "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
+      "name": "i-have-adhd",
+      "updatedAt": "2026-09-10T16:09:35.601712Z",
       "updatedAtVerified": true,
-      "displayName": "Plugin Management",
-      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
-      "marketplaceName": "knowledge-work-plugins",
+      "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
+      "marketplaceName": "i-have-adhd",
       "installedBy": "user",
       "installationPreference": "available"
     },
     {
-      "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
-      "name": "i-have-adhd",
-      "updatedAt": "2026-09-01T20:43:44.522485Z",
+      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
+      "name": "cowork-plugin-management",
+      "updatedAt": "2026-09-10T20:23:13.753770Z",
       "updatedAtVerified": true,
-      "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
-      "marketplaceName": "i-have-adhd",
+      "displayName": "Plugin Management",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
       "installedBy": "user",
       "installationPreference": "available"
     }
