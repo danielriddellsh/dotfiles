@@ -1,10 +1,20 @@
 {
-  "lastUpdated": 1789135661992,
+  "lastUpdated": 1789740461757,
   "plugins": [
+    {
+      "id": "plugin_01JTJ46nkfKYsjnzBQ9GfcQg",
+      "name": "mattpocock-skills",
+      "updatedAt": "2026-09-15T14:38:26.288882Z",
+      "updatedAtVerified": true,
+      "marketplaceId": "marketplace_01NfdxSQ6tqdN482vMHMyDTZ",
+      "marketplaceName": "skills",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
     {
       "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
       "name": "i-have-adhd",
-      "updatedAt": "2026-09-10T16:09:35.601712Z",
+      "updatedAt": "2026-09-15T21:05:44.120181Z",
       "updatedAtVerified": true,
       "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
       "marketplaceName": "i-have-adhd",
@@ -14,7 +24,7 @@
     {
       "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
       "name": "cowork-plugin-management",
-      "updatedAt": "2026-09-10T20:23:13.753770Z",
+      "updatedAt": "2026-09-16T00:04:15.946839Z",
       "updatedAtVerified": true,
       "displayName": "Plugin Management",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",

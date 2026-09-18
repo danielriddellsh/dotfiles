@@ -1,6 +1,8 @@
 tap "danielriddell21/tap", trusted: { casks: ["galapagos", "gambit", "hegemony", "nemesis", "pandemonium", "rubix"] }
 tap "dapr/tap"
 tap "hashicorp/tap"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI of the open-source IDE For exploring and testing APIs

@@ -24,7 +24,7 @@
     "coworkHipaaRestricted": false,
     "orgWorkAcrossAppsDisabled": false,
     "ccdScheduledTasksEnabled": true,
-    "hybridDetectLatched": true,
+    "earlyWindowShowLatched": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
     "bypassPermissionsOptInByAccount": {
@@ -65,7 +65,11 @@
           "extraPanesByMode": {},
           "colWeightsByMode": {},
           "rowSplit": 0.5,
-          "draftNonce": 0
+          "draftNonce": 0,
+          "lastPrimaryCodeSession": {
+            "id": "local_a8de0baf-fb60-4fb4-bcf0-b1935ae6c32c",
+            "type": "local"
+          }
         },
         "version": 4
       },
@@ -90,13 +94,14 @@
         "/Users/dan/github/orpheus": "auto",
         "/Users/dan/Github/orpheus-ops": "auto",
         "/Users/dan/Github/orpheus-terraform": "auto",
-        "/Users/dan/Github/neoctl": "auto"
+        "/Users/dan/Github/neoctl": "auto",
+        "/Users/dan/Github/talos": "auto"
       },
       "claude-code-preferred-editor": "vscode",
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 11,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 14,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 1,
@@ -109,7 +114,8 @@
       "epitaxy-auto-setup-snoozed-until.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 0,
       "epitaxy-auto-setup-band-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-reinvite-first-block-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-keep-awake-band-used.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
+      "epitaxy-keep-awake-band-used.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "autoResumeRateLimit.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {}
     }
   }
 }

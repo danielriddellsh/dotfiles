@@ -1,16 +1,6 @@
 {
-  "enabledPlugins": {
-    "caveman@caveman": true,
-    "mattpocock-skills@mattpocock": true
-  },
-  "extraKnownMarketplaces": {
-    "mattpocock": {
-      "source": {
-        "source": "git",
-        "url": "https://github.com/mattpocock/skills.git"
-      }
-    }
-  },
+  "includeCoAuthoredBy": false,
+  "enabledPlugins": {},
   "theme": "dark",
   "agentPushNotifEnabled": true
 }
