@@ -1,6 +1,11 @@
 {
   "includeCoAuthoredBy": false,
+  "model": "claude-opus-5",
   "enabledPlugins": {},
+  "askUserQuestionTimeout": "10m",
+  "tui": "fullscreen",
+  "autoMemoryEnabled": false,
   "theme": "dark",
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "effortLevel": "medium"
 }

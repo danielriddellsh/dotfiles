@@ -3,6 +3,8 @@ tap "dapr/tap"
 tap "hashicorp/tap"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
+# Bash Automated Testing System
+brew "bats-core"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI of the open-source IDE For exploring and testing APIs
@@ -29,6 +31,8 @@ brew "gh"
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Tool for glamorous shell scripts
+brew "gum"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Helps you navigate your file system faster by learning your habits
@@ -49,11 +53,15 @@ brew "libpq"
 brew "mole"
 # AI agent toolkit
 brew "pi-coding-agent"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# A unified developer tool suite — JSON analysis, type generation, and more
+# Your CLI home video recorder
+brew "vhs"
+# just a dev tool
 brew "danielriddell21/tap/unum", trusted: true
 # Client for Dapr.
 brew "dapr/tap/dapr-cli", trusted: true

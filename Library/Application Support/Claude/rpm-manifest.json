@@ -1,30 +1,37 @@
 {
-  "lastUpdated": 1789740461757,
+  "lastUpdated": 1784811703322,
   "plugins": [
     {
-      "id": "plugin_01JTJ46nkfKYsjnzBQ9GfcQg",
-      "name": "mattpocock-skills",
-      "updatedAt": "2026-09-15T14:38:26.288882Z",
-      "updatedAtVerified": true,
-      "marketplaceId": "marketplace_01NfdxSQ6tqdN482vMHMyDTZ",
-      "marketplaceName": "skills",
+      "id": "plugin_01LUZUMEBZGv73n16s8hZgTB",
+      "name": "caveman",
+      "updatedAt": "2026-05-29T18:25:33.148037Z",
+      "marketplaceId": "marketplace_01WsGuZLEv9nSD4XDwnJ6jWX",
+      "marketplaceName": "caveman",
       "installedBy": "user",
       "installationPreference": "available"
     },
     {
-      "id": "plugin_018QNhQWC2LbpLhGtAK3hiq2",
-      "name": "i-have-adhd",
-      "updatedAt": "2026-09-15T21:05:44.120181Z",
-      "updatedAtVerified": true,
-      "marketplaceId": "marketplace_01Nxvm6JV2vuRfdojVvkL3sd",
-      "marketplaceName": "i-have-adhd",
+      "id": "plugin_011tzfgfZaaBuQLxJ67aE1AS",
+      "name": "superpowers",
+      "updatedAt": "2026-05-29T18:24:19.468945Z",
+      "marketplaceId": "marketplace_015438xH7oG9GDoAV3zMtmub",
+      "marketplaceName": "superpowers-marketplace",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01RhNBgyaj3KNyZbJ6ptBkWE",
+      "name": "babysitter",
+      "updatedAt": "2026-05-29T18:26:29.570009Z",
+      "marketplaceId": "marketplace_01BEguHgcHCBa34bKw25gsqi",
+      "marketplaceName": "babysitter",
       "installedBy": "user",
       "installationPreference": "available"
     },
     {
       "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
       "name": "cowork-plugin-management",
-      "updatedAt": "2026-09-16T00:04:15.946839Z",
+      "updatedAt": "2026-07-23T00:37:42.168793Z",
       "updatedAtVerified": true,
       "displayName": "Plugin Management",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
