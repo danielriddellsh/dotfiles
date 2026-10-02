@@ -63,12 +63,14 @@
       },
       "desktop-frame.paneStore.v1": {
         "state": {
-          "extraPanesByMode": {},
+          "extraPanesByMode": {
+            "code": []
+          },
           "colWeightsByMode": {},
           "rowSplit": 0.5,
           "draftNonce": 0,
           "lastPrimaryCodeSession": {
-            "id": "local_db5dfe63-3cd0-4da7-9bea-953f2355798e",
+            "id": "local_b16226d3-5f8c-4940-9594-348afd8c53c0",
             "type": "local"
           }
         },
@@ -106,8 +108,8 @@
       "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 17,
       "epitaxy-split-suggestion": {
         "state": {
-          "shownCount": 1,
-          "accepted": false,
+          "shownCount": 2,
+          "accepted": true,
           "dismissCount": 0,
           "lastDismissedAt": 0
         },
@@ -118,7 +120,9 @@
       "epitaxy-auto-reinvite-first-block-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-keep-awake-band-used.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "autoResumeRateLimit.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {},
-      "starred-local-routines": []
+      "starred-local-routines": [],
+      "epitaxy-files-tree-width": 640,
+      "modelSwitchCacheWarningSkip.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     }
   }
 }
