@@ -18,7 +18,6 @@ Work through these steps:
 ~/.config/starship.toml
 ~/.config/gh/config.yml
 ~/.docker/config.json
-~/.config/linearmouse/linearmouse.json
 ~/.config/git/ignore
 ~/.pi/agent/settings.json
 ~/.pi/agent/npm/package.json

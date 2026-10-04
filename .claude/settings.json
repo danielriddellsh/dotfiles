@@ -1,11 +1,47 @@
 {
   "includeCoAuthoredBy": false,
   "model": "claude-opus-5",
-  "enabledPlugins": {},
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"/Users/dan/.claude/plugins/cache/caveman/caveman/25d22f864ad6/src/hooks/caveman-statusline.sh\""
+  },
+  "enabledPlugins": {
+    "caveman@caveman": true,
+    "cc-arcade@cc-arcade": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-coaster-tycoon": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/thickiran/claude-coaster-tycoon.git"
+      }
+    },
+    "intermission": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/jarrodwatts/intermission.git"
+      }
+    },
+    "claude-community": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/claude-plugins-community.git"
+      }
+    },
+    "cc-arcade": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/sezaakgun/cc-arcade.git"
+      }
+    }
+  },
+  "effortLevel": "medium",
   "askUserQuestionTimeout": "10m",
   "tui": "fullscreen",
   "autoMemoryEnabled": false,
   "theme": "dark",
   "agentPushNotifEnabled": true,
-  "effortLevel": "medium"
+  "env": {
+    "CLAUDE_CODE_ENABLE_FUNCTION_HOOKS": "1"
+  }
 }
