@@ -24,7 +24,6 @@
     "coworkHipaaRestricted": false,
     "orgWorkAcrossAppsDisabled": false,
     "ccdScheduledTasksEnabled": true,
-    "earlyWindowShowLatched": true,
     "storeReadCacheLatched": true,
     "sidebarMode": "epitaxy",
     "bypassPermissionsModeEnabled": true,
@@ -70,7 +69,7 @@
           "rowSplit": 0.5,
           "draftNonce": 0,
           "lastPrimaryCodeSession": {
-            "id": "local_b16226d3-5f8c-4940-9594-348afd8c53c0",
+            "id": "local_abf8b19c-8cfd-4b0a-a809-ca9cb8b5ce5b",
             "type": "local"
           }
         },
@@ -105,7 +104,7 @@
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 17,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 21,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 2,
@@ -122,7 +121,72 @@
       "autoResumeRateLimit.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {},
       "starred-local-routines": [],
       "epitaxy-files-tree-width": 640,
-      "modelSwitchCacheWarningSkip.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
+      "modelSwitchCacheWarningSkip.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "dframe-code-sections": {
+        "ee527eec-9dda-4a4c-8211-5fd15f9dc899/ef9c66d3-5eb2-4973-8070-e0fc8755d966": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "groupBy": "date",
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        }
+      },
+      "epitaxy-serene-whistle-decided": {
+        "local_378daa24-5af9-4199-8e98-10c4dc0c2b0e": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_791c6839-cb1e-497d-8e24-4dc98c3c2654": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_b16226d3-5f8c-4940-9594-348afd8c53c0": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        }
+      }
     }
   }
 }

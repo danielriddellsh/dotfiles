@@ -117,6 +117,7 @@ vscode "pkief.material-icon-theme"
 vscode "pkief.material-product-icons"
 vscode "redis.redis-for-vscode"
 vscode "semanticdiff.semanticdiff"
+go "github.com/a8m/envsubst/cmd/envsubst"
 go "golang.org/x/tools/gopls"
 uv "graphifyy", with: ["openai"]
 npm "@a5c-ai/babysitter-sdk"
