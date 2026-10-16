@@ -17,6 +17,8 @@ brew "colima"
 brew "d2"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Docker CLI plugin for extended build capabilities with BuildKit
+brew "docker-buildx"
 # Isolated development environments using Docker
 brew "docker-compose"
 # Platform keystore credential helper for Docker
@@ -61,6 +63,8 @@ brew "starship"
 brew "uv"
 # Your CLI home video recorder
 brew "vhs"
+# just a release tool
+brew "danielriddell21/tap/letsgo", trusted: true
 # just a dev tool
 brew "danielriddell21/tap/unum", trusted: true
 # Client for Dapr.

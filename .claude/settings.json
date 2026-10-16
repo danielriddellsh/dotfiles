@@ -11,7 +11,6 @@
   "enabledPlugins": {
     "caveman@caveman": true,
     "cc-arcade@cc-arcade": true,
-    "agent-flow@claude-agent-flow": true,
     "skins@hellosverre-mods": true,
     "filetree@claude-code-filetree": true,
     "are-you-sure-bro@danielriddell21-skills": true,
@@ -23,19 +22,14 @@
     "your-call@danielriddell21-skills": true,
     "too-long-didnt-read@danielriddell21-skills": true,
     "whats-in-the-box@danielriddell21-skills": true,
-    "who-wants-the-job@danielriddell21-skills": true
+    "who-wants-the-job@danielriddell21-skills": true,
+    "picture-this@danielriddell21-skills": true
   },
   "extraKnownMarketplaces": {
     "cc-arcade": {
       "source": {
         "source": "git",
         "url": "https://github.com/sezaakgun/cc-arcade.git"
-      }
-    },
-    "claude-agent-flow": {
-      "source": {
-        "source": "git",
-        "url": "https://github.com/Charlie0113-T/claude-agent-flow.git"
       }
     },
     "hellosverre-mods": {
