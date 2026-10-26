@@ -68,7 +68,7 @@
           "rowSplit": 0.5,
           "draftNonce": 0,
           "lastPrimaryCodeSession": {
-            "id": "local_5cb75de8-1829-4a87-b7cc-4e8be85d832e",
+            "id": "local_f117d555-5e82-4b21-9c4b-bf22e7cfdcbd",
             "type": "local"
           }
         },
@@ -104,7 +104,7 @@
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 27,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 31,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 2,
@@ -118,7 +118,13 @@
       "epitaxy-auto-setup-band-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-reinvite-first-block-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-keep-awake-band-used.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "autoResumeRateLimit.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {},
+      "autoResumeRateLimit.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
+        "local_b1bc49b1-0ef9-444e-a979-1dc8dd143983": {
+          "resetsAt": 1792582800,
+          "attempt": 0,
+          "optedIn": true
+        }
+      },
       "starred-local-routines": [],
       "epitaxy-files-tree-width": 640,
       "modelSwitchCacheWarningSkip.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
@@ -135,7 +141,8 @@
               "ascending": false,
               "show": {
                 "metadata": false,
-                "emptyGroups": false
+                "emptyGroups": false,
+                "sideChats": false
               },
               "collapsed": false,
               "shown": true
@@ -150,7 +157,8 @@
               "ascending": false,
               "show": {
                 "metadata": false,
-                "emptyGroups": false
+                "emptyGroups": false,
+                "sideChats": false
               },
               "collapsed": true,
               "shown": false
@@ -166,7 +174,8 @@
               "ascending": false,
               "show": {
                 "metadata": false,
-                "emptyGroups": false
+                "emptyGroups": false,
+                "sideChats": false
               },
               "collapsed": false,
               "shown": true
@@ -256,8 +265,107 @@
         "local_00bc9b49-058a-47a8-a697-321b059f23e7": {
           "base": "claude-sonnet-5-5",
           "kept": true
+        },
+        "local_cb004922-9102-46a3-bb1f-d7695017e4f4": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_1dcb615b-5b87-4d80-adb9-71bc7e5d4c7b": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_5cb75de8-1829-4a87-b7cc-4e8be85d832e": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_2364c8e6-f50b-4b82-93a4-681679185a10": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_ba340d9c-1e9b-456d-93d7-595d8b1d64fc": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_c1c851f7-fa45-42c3-9017-7ae2f52c89d5": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_60a91aab-6f47-42e3-a498-1773a048f090": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_3ecd2ed3-c74d-4b4a-8356-9362b3faf180": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_b8823571-460f-45e1-a960-b06444944d64": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_be7a8ad4-4a97-4fda-ab1a-f23337117532": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_35d0ae10-4b27-4eef-84a2-42bc27152bfb": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_b1bc49b1-0ef9-444e-a979-1dc8dd143983": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_3e0831a5-1172-4b36-8e6e-818fa5f69ddc": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_c59f7b59-7184-4860-b915-0d147f8adbc4": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_6f0f60bb-a6da-4668-9405-0ff199cb883b": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_f95808f1-a1a0-4556-ab15-fd9c79006a12": {
+          "base": "claude-opus-5-5",
+          "kept": true
         }
-      }
+      },
+      "epitaxy-default-transcript-view-nudge": {
+        "thinking": "905d9075"
+      },
+      "startCardDismissals": {
+        "waiting-session:eb4t4itf4f": "1oq4z1gmxtv",
+        "waiting-session:15pzlatonbc": "2e3hgpdjsq7",
+        "waiting-session:14fz4y3t2he": "ih8c06n588",
+        "waiting-session:18288otkpum": "q9kype43wj",
+        "waiting-session:bg3mnnrgvc": "2fj8wipuxzh",
+        "waiting-session:9bx3ttb4cs": "acz9gh2y1w",
+        "resume-session:1yizdckivd0": "1rf0jgeodt"
+      },
+      "epitaxy-folder-permission-mode-v2.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
+        "/Users/dan/Github/orpheus": "auto",
+        "/Users/dan/Github/orpheus-bruno": "auto",
+        "/Users/dan/github/orpheus-docs": "auto",
+        "/Users/dan/Github/api": "auto",
+        "/Users/dan/Github/athena": "auto",
+        "/Users/dan/Github/orpheus-k6": "auto",
+        "/Users/dan/Github/dotfiles": "auto",
+        "/Users/dan/github/orpheus": "auto",
+        "/Users/dan/Github/orpheus-ops": "auto",
+        "/Users/dan/Github/orpheus-terraform": "auto",
+        "/Users/dan/Github/neoctl": "auto",
+        "/Users/dan/Github/talos": "auto",
+        "/Users/dan/Github/gopher-dojo": "auto",
+        "/Users/dan/Github/orpheus-docs": "auto"
+      },
+      "epitaxy-perm-mode-acks-v2.ee527eec-9dda-4a4c-8211-5fd15f9dc899": [
+        "/Users/dan/Github/orpheus:auto",
+        "/Users/dan/Github/orpheus-bruno:auto",
+        "/Users/dan/github/orpheus-docs:auto",
+        "/Users/dan/Github/api:auto",
+        "/Users/dan/Github/athena:auto"
+      ]
     }
   }
 }
