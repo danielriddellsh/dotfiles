@@ -23,7 +23,10 @@
     "too-long-didnt-read@danielriddell21-skills": true,
     "whats-in-the-box@danielriddell21-skills": true,
     "who-wants-the-job@danielriddell21-skills": true,
-    "picture-this@danielriddell21-skills": true
+    "picture-this@danielriddell21-skills": true,
+    "savvy-flow@claude-kit": true,
+    "savvy-progress@claude-kit": false,
+    "session-band@claude-kit": false
   },
   "extraKnownMarketplaces": {
     "cc-arcade": {
@@ -48,6 +51,12 @@
       "source": {
         "source": "git",
         "url": "https://github.com/danielriddell21/skills.git"
+      }
+    },
+    "claude-kit": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/johnnyvizz/claude-kit.git"
       }
     }
   },

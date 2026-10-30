@@ -2,8 +2,9 @@
   "mcpServers": {},
   "coworkUserFilesPath": "/Users/dan/Claude",
   "preferences": {
+    "chromeExtensionEnabled": false,
     "ccBranchPrefix": "claude",
-    "launchEnabled": false,
+    "launchEnabled": true,
     "coworkBrowserToolsEnabled": true,
     "coworkPreferredBrowser": "built_in",
     "launchPreviewPersistedWorkspaces": [],
@@ -68,7 +69,7 @@
           "rowSplit": 0.5,
           "draftNonce": 0,
           "lastPrimaryCodeSession": {
-            "id": "local_f117d555-5e82-4b21-9c4b-bf22e7cfdcbd",
+            "id": "local_d36dddbc-4a84-46ce-a2f4-7cdceeeaf432",
             "type": "local"
           }
         },
@@ -104,7 +105,7 @@
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 31,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 38,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 2,
@@ -329,6 +330,58 @@
         "local_f95808f1-a1a0-4556-ab15-fd9c79006a12": {
           "base": "claude-opus-5-5",
           "kept": true
+        },
+        "local_633cb728-3b6b-4155-a425-25b5281defb5": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_b8cb234b-0484-41d0-b562-219d0fd42564": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_8ae4c76b-4084-4ab1-8628-b4354d5bf03b": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_60a1a51b-9c08-494a-9c4c-15d02cb2c929": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_8ba51b59-13dd-4cb6-96b1-ee492d5b6473": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_ec354fc0-539d-41f7-ac49-faa96f68d256": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_34f9adac-312a-4a0e-8e3e-cdd58f1929a1": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_3a441705-0bc4-4d08-9020-42664ad6fad3": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_855d7384-7ba7-4dce-b8eb-b7060d426aca": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_e5657536-c6a7-4f54-93e8-0633f85b46bc": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_ffb4a8cb-6bdc-4fe3-9bc4-fac877fac31d": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_af67e503-7643-4658-89ae-ed2abb2904b0": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_d36dddbc-4a84-46ce-a2f4-7cdceeeaf432": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
         }
       },
       "epitaxy-default-transcript-view-nudge": {
@@ -341,7 +394,8 @@
         "waiting-session:18288otkpum": "q9kype43wj",
         "waiting-session:bg3mnnrgvc": "2fj8wipuxzh",
         "waiting-session:9bx3ttb4cs": "acz9gh2y1w",
-        "resume-session:1yizdckivd0": "1rf0jgeodt"
+        "resume-session:1yizdckivd0": "1rf0jgeodt",
+        "continue-branch:6td5ozod1l": "emhgni9yrs"
       },
       "epitaxy-folder-permission-mode-v2.ee527eec-9dda-4a4c-8211-5fd15f9dc899": {
         "/Users/dan/Github/orpheus": "auto",
@@ -357,14 +411,16 @@
         "/Users/dan/Github/neoctl": "auto",
         "/Users/dan/Github/talos": "auto",
         "/Users/dan/Github/gopher-dojo": "auto",
-        "/Users/dan/Github/orpheus-docs": "auto"
+        "/Users/dan/Github/orpheus-docs": "auto",
+        "/Users/dan/Github/skills": "auto"
       },
       "epitaxy-perm-mode-acks-v2.ee527eec-9dda-4a4c-8211-5fd15f9dc899": [
         "/Users/dan/Github/orpheus:auto",
         "/Users/dan/Github/orpheus-bruno:auto",
         "/Users/dan/github/orpheus-docs:auto",
         "/Users/dan/Github/api:auto",
-        "/Users/dan/Github/athena:auto"
+        "/Users/dan/Github/athena:auto",
+        "/Users/dan/Github/talos:bypassPermissions"
       ]
     }
   }
