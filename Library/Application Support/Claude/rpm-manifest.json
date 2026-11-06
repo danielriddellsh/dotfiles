@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793372846899,
+  "lastUpdated": 1793977089780,
   "plugins": [
     {
       "id": "plugin_01JTJ46nkfKYsjnzBQ9GfcQg",
@@ -20,7 +20,8 @@
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
       "marketplaceName": "knowledge-work-plugins",
       "installedBy": "user",
-      "installationPreference": "available"
+      "installationPreference": "available",
+      "upstreamRepoUrl": "https://github.com/anthropics/knowledge-work-plugins"
     }
   ]
 }

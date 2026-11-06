@@ -4,11 +4,12 @@
   "preferences": {
     "chromeExtensionEnabled": false,
     "ccBranchPrefix": "claude",
-    "launchEnabled": true,
+    "launchEnabled": false,
     "coworkBrowserToolsEnabled": true,
     "coworkPreferredBrowser": "built_in",
     "launchPreviewPersistedWorkspaces": [],
     "launchPreviewSessionScopedSessions": [],
+    "launchChromeImportPrompt": "dismissed",
     "localAgentModeTrustedFolders": [
       "/Users/dan/Library/CloudStorage/OneDrive-SimplyhealthGroupLtd/Documents/Obsidian Vault/Projects"
     ],
@@ -69,7 +70,7 @@
           "rowSplit": 0.5,
           "draftNonce": 0,
           "lastPrimaryCodeSession": {
-            "id": "local_d36dddbc-4a84-46ce-a2f4-7cdceeeaf432",
+            "id": "local_4e2377ba-1de0-4e11-a747-e2d27b39ebf9",
             "type": "local"
           }
         },
@@ -105,7 +106,7 @@
       "epitaxy-auto-default-nudge-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-entry-warning-seen.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
       "epitaxy-auto-mode-consented.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
-      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 38,
+      "epitaxy-auto-mode-denial-count.ee527eec-9dda-4a4c-8211-5fd15f9dc899": 42,
       "epitaxy-split-suggestion": {
         "state": {
           "shownCount": 2,
@@ -143,7 +144,8 @@
               "show": {
                 "metadata": false,
                 "emptyGroups": false,
-                "sideChats": false
+                "sideChats": false,
+                "slack": true
               },
               "collapsed": false,
               "shown": true
@@ -159,7 +161,8 @@
               "show": {
                 "metadata": false,
                 "emptyGroups": false,
-                "sideChats": false
+                "sideChats": false,
+                "slack": true
               },
               "collapsed": true,
               "shown": false
@@ -176,7 +179,8 @@
               "show": {
                 "metadata": false,
                 "emptyGroups": false,
-                "sideChats": false
+                "sideChats": false,
+                "slack": true
               },
               "collapsed": false,
               "shown": true
@@ -382,6 +386,42 @@
         "local_d36dddbc-4a84-46ce-a2f4-7cdceeeaf432": {
           "base": "claude-sonnet-5-5",
           "kept": true
+        },
+        "local_7a3eec23-685d-4319-ac5d-0592cd9c1089": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_1b0844c6-2b75-4054-8df2-965446260951": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_f52b0e48-425d-4d0b-b840-94229957b633": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_6d288cee-8ca7-4098-b39c-fb7b3dcc40ad": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_4d92907f-62ca-4978-986f-3aa2cb235f84": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_2562bf84-d7a4-40f4-9852-a5cc0f680642": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_336cd5fc-3cf3-4cbc-971c-b809efaffd38": {
+          "base": "claude-sonnet-5-5",
+          "kept": true
+        },
+        "local_94a6000c-6acb-4208-97ee-994197c5f541": {
+          "base": "claude-opus-5-5",
+          "kept": true
+        },
+        "local_4e2377ba-1de0-4e11-a747-e2d27b39ebf9": {
+          "base": "claude-opus-5-5",
+          "kept": true
         }
       },
       "epitaxy-default-transcript-view-nudge": {
@@ -421,7 +461,9 @@
         "/Users/dan/Github/api:auto",
         "/Users/dan/Github/athena:auto",
         "/Users/dan/Github/talos:bypassPermissions"
-      ]
+      ],
+      "ultrathinkAvailable.claude-sonnet-5-5.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true,
+      "ultrathinkAvailable.claude-opus-5-5.ee527eec-9dda-4a4c-8211-5fd15f9dc899": true
     }
   }
 }
